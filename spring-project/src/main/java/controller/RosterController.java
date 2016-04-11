@@ -24,6 +24,7 @@ public class RosterController {
 		model.addAttribute(members);
 	}
 	
+	@RequestMapping
 	public void member(@RequestParam("id") Integer id, Model model) {
 		model.addAttribute(members.get(id));
 	}
