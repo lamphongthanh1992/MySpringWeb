@@ -15,6 +15,11 @@ public class Member {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+	
+	public Member() {
+		
+	}
+	
 	public Member(String firstName, String lastName) {
 		this.firstName = firstName;
 		this.lastName = lastName;
