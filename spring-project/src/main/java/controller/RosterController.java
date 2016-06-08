@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class RosterController {
 	private List<Member> members = new ArrayList<Member>();
 	public RosterController() {
+		int a = addtional.sping.Math.addnumber(1, 2);
 		members.add(new Member("John", "Lennon"));
 		members.add(new Member("Steve", "Jobs"));
 		members.add(new Member("Bill", "Gate"));

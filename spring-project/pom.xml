@@ -54,6 +54,13 @@
 		<artifactId>log4j</artifactId>
 		<version>1.2.17</version>
 	</dependency>
+	<dependency>
+		<groupId>sping-addional</groupId>
+		<artifactId>sping-addional</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<!-- <scope>system</scope> -->
+		<!-- <systemPath>C:\Users\tlam26\Documents\GitHub\MySpringWeb\sping-addional\target\sping-addional-0.0.1-SNAPSHOT.jar</systemPath> -->
+	</dependency>
 	
 	
     
